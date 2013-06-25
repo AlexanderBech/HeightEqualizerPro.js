@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>HeightEqualizerPro.js 1.0</title>
+	<style>
+	* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+	h1 small { font-size: 16px; color: #c0c0c0; font-weight: normal; clear: both; display: block; }
+	.list { font-family: 'Helvetica',serif; width: 600px; margin: 50px auto 0 auto; border: 1px solid #ccc; padding: 20px; color: #333; }
+	.list .expandee { margin-bottom: 20px; }
+	.list .expandee .trigger { padding: 15px; background: #f0f0f0; cursor: pointer; }
+	.list .expandee .target { padding: 15px; background: #f0f0f0; border-top: 1px solid #ccc; }
+	pre {
+		background-color: #f8f8f8;
+		border: 1px solid #ddd;
+		font-size: 13px;
+		line-height: 19px;
+		overflow: auto;
+		padding: 6px 10px;
+		border-radius: 3px;
+	}
+	article section {
+		width: 169px;
+		float: left;
+		margin-right: 10px;
+		background: #db6969;
+		padding: 10px;
+	}
+	article section:last-child {
+		margin-right: 0;
+	}
+
+	.clear { display: block; clear: both; *zoom: 1; }
+	.clear:before, .clear:after { display: table; content: ""; }
+	.clear:after { clear: both; }
+	</style>
+</head>
+<body>
+
+	<!--
+	EXPLAINING MARKUP
+	-->
+	<section class="list">
+		<h1>HeightEqualizerPro.js 1.0 <small>http://github.com/AlexanderBech/HeightEqualizerPro.js</small></h1>
+		<div class="expandee">
+			<div class="trigger">Example</div>
+			<div class="target">
+				<article class="clear">
+					<section>Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</section>
+					<section>Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</section>
+					<section>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</section>
+				</article>
+			</div>
+		</div>
+		<div class="expandee">
+			<div class="trigger">Usage</div>
+			<div class="target">
+				<pre>$('.equalize').heightEqualizerPro();</pre>
+				<pre>&lt;article&gt;
+	&lt;section class=&quot;equalize&quot;&gt;
+		Lorem
+	&lt;/section&gt;
+	&lt;section class=&quot;equalize&quot;&gt;
+		Lorem
+	&lt;/section&gt;
+	&lt;section class=&quot;equalize&quot;&gt;
+		Lorem
+	&lt;/section&gt;
+&lt;/article&gt;
+				</pre>
+			</div>
+		</div>
+		<div class="expandee">
+			<div class="trigger">Credits</div>
+			<div class="target">
+				<p>Jakob Eriksen - <a href="https://github.com/jakob-e" target="_blank">http://github.com/jakob-e</a></p>
+				<p>Alexander Bech - <a href="https://github.com/AlexanderBech" target="_blank">http://github.com/AlexanderBech</a></p>
+			</div>
+		</div>
+	</section>
+
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script src="jquery.heightequalizerpro.js"></script>
+	<script>
+	$(document).ready(function(){
+		$('article section').heightEqualizerPro();
+	});
+	</script>
+</body>
+</html>
