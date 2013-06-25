@@ -3,7 +3,7 @@ HeightEqualizerPro.js
 
 jQuery plugin for equalizing height on a set of elements
 
-Example: http://alexanderbech.com/work/jquery-expanderpro/
+Example: http://alexanderbech.com/work/jquery-heightequalizerpro/
 
 Usage
 ==================
