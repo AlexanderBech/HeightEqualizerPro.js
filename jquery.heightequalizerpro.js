@@ -4,7 +4,7 @@
 *	http://github.com/AlexanderBech/HeightEqualizerPro.js
 * ========================================================== */
 (function ($){
-	$.fn.heightEqualizer = function(){
+	$.fn.heightEqualizerPro = function(){
 		var eq={};
 	    this.each(function(){
 	        var $tgt=$(this); $tgt.height('auto'); var k='_'+$tgt.offset().top; if(!eq[k])eq[k]=[];
