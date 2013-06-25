@@ -11,3 +11,8 @@ Include jQuery 1.7+ and jquery.heightequalizerpro.js in your layout and target y
 ```javascript
 $('.equalize').heightEqualizerPro();
 ```
+
+Credits
+==================
+Jakob Eriksen - http://github.com/jakob-e
+Alexander Bech
