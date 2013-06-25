@@ -12,6 +12,20 @@ Include jQuery 1.7+ and jquery.heightequalizerpro.js in your layout and target y
 $('.equalize').heightEqualizerPro();
 ```
 
+```html
+<article>
+  <section class="equalize">
+		Lorem
+	</section>
+	<section class="equalize">
+		Lorem
+	</section>
+	<section class="equalize">
+		Lorem
+	</section>
+</article>
+```
+
 Credits
 ==================
 Jakob Eriksen - http://github.com/jakob-e
