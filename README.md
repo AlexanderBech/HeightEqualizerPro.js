@@ -30,4 +30,4 @@ Credits
 ==================
 Jakob Eriksen - http://github.com/jakob-e
 
-Alexander Bech
+Alexander Bech - http://github.com/AlexanderBech/
