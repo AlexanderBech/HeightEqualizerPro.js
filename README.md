@@ -29,4 +29,3 @@ $('.equalize').heightEqualizerPro();
 Credits
 ==================
 Jakob Eriksen - http://github.com/jakob-e
-Alexander Bech
