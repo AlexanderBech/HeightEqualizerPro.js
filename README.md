@@ -12,6 +12,12 @@ Include jQuery 1.7+ and jquery.heightequalizerpro.js in your layout and target y
 $('.equalize').heightEqualizerPro();
 ```
 
+or equalize by height on children
+
+```javascript
+$('.equalize ul li').heightEqualizerPro('a');
+```
+
 ```html
 <article>
   <section class="equalize">
