@@ -1,4 +1,4 @@
-HeightEqualizerPro.js
+HeightEqualizerPro.js - version 3
 ==================
 
 jQuery plugin for equalizing height on a set of elements
