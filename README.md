@@ -32,6 +32,3 @@ $('.equalize ul li').heightEqualizerPro('a');
 </article>
 ```
 
-Credits
-==================
-Jakob Eriksen - http://github.com/jakob-e
